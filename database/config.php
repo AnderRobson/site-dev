@@ -1,6 +1,6 @@
 <?php
-define("DATABASE_HOST", "localhost");
-define("DATABASE_PORT", "3333");
-define("DATABASE_DBNAME", "blog");
-define("DATABASE_USER", "root");
-define("DATABASE_PASSWORD", "1234");
+define("DATABASE_HOST", "{HOST DO BANCO}");
+define("DATABASE_PORT", "{PORTA DE ACESSO AO BANCO}");
+define("DATABASE_DBNAME", "{NOME DO BANCO DE DADOS}");
+define("DATABASE_USER", "{NOME DO USUÁRIO DO BANCO DE DADOS}");
+define("DATABASE_PASSWORD", "{SENHA DO USUÁRIO DO BANCO DE DADOS}");

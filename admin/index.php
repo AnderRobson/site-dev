@@ -1,8 +1,8 @@
 <?php
     $paths = [
-        dirname(__DIR__) . "/dev-blog",
-        dirname(__DIR__, 2) . "/dev-blog",
-        dirname(__DIR__, 3) . "/dev-blog",
+        dirname(__DIR__) . DIRECTORY_SEPARATOR . "dev-admin",
+        dirname(__DIR__, 2) . DIRECTORY_SEPARATOR .  "dev-admin",
+        dirname(__DIR__, 3) . DIRECTORY_SEPARATOR .  "dev-admin",
     ];
 
     foreach ($paths as $path) {
@@ -12,5 +12,5 @@
         }
     }
 
-    require "database/config.php";
+    require "../database/config.php";
     require ROOT . DIRECTORY_SEPARATOR . 'engine' . DIRECTORY_SEPARATOR . 'start.php';
