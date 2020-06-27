@@ -33,18 +33,3 @@
        "TWITTER_CREATOR" => "@ilikeAsking",
        "TWITTER_SITE" => "@ilikeAsking",
     ]);
-
-    /**
-     *  Mail connect
-     */
-    define("MAIL", []);
-
-    /**
-     *  Social login: Facebook
-     */
-    define("FCEBOOK_LOGIN", []);
-
-    /**
-     *  Social login: Google
-     */
-    define("GOOGLE_LOGIN", []);
